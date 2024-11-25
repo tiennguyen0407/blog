@@ -69,7 +69,7 @@ author: your name
 pubDatetime: 2022-09-21T05:17:19Z
 slug: the-title-of-the-post
 featured: true
-draft: false
+draft: fals
 tags:
   - some
   - example
