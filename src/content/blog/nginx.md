@@ -1,7 +1,7 @@
 ---
 author: Tien Nguyen
-pubDatetime: 2024-11-25T17:11:85
-modDatetime: 2024-11-25T17:11:85
+pubDatetime: 2024-11-25
+modDatetime: 2024-11-25
 title: Nginx notes
 slug: nginx-notes
 featured: true

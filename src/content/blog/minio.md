@@ -1,7 +1,7 @@
 ---
 author: Tien Nguyen
-pubDatetime: 2024-11-25T17:11:76
-modDatetime: 2024-11-25T17:11:76
+pubDatetime: 2024-11-25
+modDatetime: 2024-11-25
 title: Minio notes
 slug: minio-notes
 featured: true

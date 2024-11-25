@@ -1,7 +1,7 @@
 ---
 author: Tien Nguyen
-pubDatetime: 2024-11-25T17:10:00Z
-modDatetime: 2024-11-25T17:11:00Z
+pubDatetime: 2024-11-25
+modDatetime: 2024-11-25
 title: Redis notes
 slug: redis-note
 featured: true
