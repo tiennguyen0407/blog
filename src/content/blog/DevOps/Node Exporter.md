@@ -41,7 +41,7 @@ sudo chown node_exporter:node_exporter /usr/local/bin/node_exporter
 ```bash
 sudo vi /etc/system/systemd/node_exporter.service
 ```
-```
+```bash
 [Unit]  
 Description=Node Exporter  
 Wants=network-online.target  
@@ -57,7 +57,7 @@ ExecStart=/usr/local/bin/node_exporter
 WantedBy=multi-user.target
 ```
 - Start service
-```
+```bash
 sudo systemctl daemon-reload
 sudo systemctl start node_exporter  
 sudo systemctl enable node_exporter
