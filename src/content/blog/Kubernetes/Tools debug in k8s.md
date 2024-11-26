@@ -30,5 +30,7 @@ kubectl run postgres-client \
 ```
 - Debug
 ```bash
-kubectl run debug --image=tiennguyen47/alpine-tools:main-013d62ca-1704959269 --restart=Never -- sh -c "while true; do echo 'debug' && sleep 5; done;"
+kubectl run debug \
+	--image=tiennguyen47/alpine-tools:main-013d62ca-1704959269 \
+	--restart=Never -- sh -c "while true; do echo 'debug' && sleep 5; done;"
 ```
