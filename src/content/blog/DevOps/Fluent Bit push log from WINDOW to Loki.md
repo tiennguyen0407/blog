@@ -19,7 +19,7 @@ description: Fluent Bit push log from WINDOW to Loki
 
 
 - Fluent bit get file log and push to loki
-```
+```ini
 [INPUT]
     Name         tail
     Path		 C:\Website\abc\logs\server.log_*
