@@ -12,7 +12,9 @@ tags:
   - loki
   - devops
   - monitor
-description: Blog
+  - fluent-bit
+  - fluent
+description: Fluent Bit push log from WINDOW to Loki
 ---
 
 
