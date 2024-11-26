@@ -18,7 +18,7 @@ description: How to install node exporter in linux ( step by step )
 ---
 
 - Install Binary
-```
+```bash
 wget https://github.com/prometheus/node_exporter/releases/download/v1.8.2/node_exporter-1.8.2.linux-amd64.tar.gz
 ```
 - Unzip
