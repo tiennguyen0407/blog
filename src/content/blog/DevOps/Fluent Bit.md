@@ -11,6 +11,7 @@ tags:
   - logs
   - loki
   - devops
+  - monitor
 description: Blog
 ---
 
