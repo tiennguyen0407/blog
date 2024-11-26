@@ -22,23 +22,23 @@ description: How to install node exporter in linux ( step by step )
 wget https://github.com/prometheus/node_exporter/releases/download/v1.8.2/node_exporter-1.8.2.linux-amd64.tar.gz
 ```
 - Unzip
-```
+```bash
 tar -xvf node_exporter-1.8.2.linux-amd64.tar.gz
 ```
 - Copy to bin
-```
+```bash
 sudo cp node_exporter-1.8.2.linux-amd64/node_exporter /usr/local/bin
 ```
 - Add user
-```
+```bash
 sudo useradd node_exporter --no-create-home --shell /bin/false
 ```
 - Set permission
-```
+```bash
 sudo chown node_exporter:node_exporter /usr/local/bin/node_exporter
 ```
 - Create service file
-```
+```bash
 sudo vi /etc/system/systemd/node_exporter.service
 ```
 ```
