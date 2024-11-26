@@ -11,10 +11,10 @@ tags:
   - git
   - trick
   - devops
-description: Blog
+description: Git notes
 ---
 
 - Fix key for repo private
-```
+```bash
 git config --global url."https://devops:${PULL_LIB}@gitlab.xxx.yyy/".insteadOf "https://gitlab.xxx.yyy/"
 ```
