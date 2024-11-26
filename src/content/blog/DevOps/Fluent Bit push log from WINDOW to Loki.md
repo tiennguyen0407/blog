@@ -33,7 +33,7 @@ description: Fluent Bit push log from WINDOW to Loki
     Labels      job=backend-A, hostname=backend-A
 ```
 - Window
-```
+```powershell
 Restart-Service fluent-bit
 get-Service fluent-bit | format-list
 ```
