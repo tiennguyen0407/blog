@@ -16,6 +16,7 @@ description: Tools debug in k8s
 ---
 - Debug network
 ```bash
+kubectl debug your-pod -it --image=nicolaka/netshoot
 ```
 - Debug mongo
 ```bash
