@@ -14,7 +14,9 @@ tags:
   - trick
 description: Tools debug in k8s
 ---
-
+- Debug network
+```bash
+```
 - Debug mongo
 ```bash
 kubectl run mongodb-client \
